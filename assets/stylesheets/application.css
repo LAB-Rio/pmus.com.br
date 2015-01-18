@@ -1,0 +1,56 @@
+body { font-family: 'Droid Sans', 'Arial', sans-serif; -webkit-font-smoothing: antialiased; }
+
+a { transition: all .2s }
+
+h2, h3, h4, h5 { font-family: 'Open Sans', 'Arial', sans-serif; font-weight: bold}
+
+.text-uppercase { text-transform: uppercase }
+.button { border-radius: 4px; }
+
+.header { padding: 1.2em 0; border-top: 2px solid #00B29A }
+
+.main-menu { margin-top: 1.4em; }
+.main-menu a { color: #666; letter-spacing: .5px; font-family: 'Open Sans'; padding: .6em; font-weight: 400; font-size: .8em; display: inline-block; margin-right: .6em; border: 2px solid white }
+.main-menu a:hover { border: 2px solid #00B29A }
+
+
+.presentation ol { list-style-type: none }
+.presentation li p { font-weight: 200; }
+.presentation ol li h3  { color: #B7DF18; font-size: 1.8em;  }
+.presentation #slider   { min-height: 600px; height: 100% !important; overflow: hidden; }
+
+.presentation .slider-1  { background: url('../images/slider1.jpg'); }
+.presentation .slider-2  { background: url('../images/slider2.jpg'); }
+.presentation .slider-3  { background: url('../images/slider3.jpg'); }
+.presentation .slider-4  { background: url('../images/slider4.jpg'); }
+.presentation .slider-5  { background: url('../images/slider5.jpg'); }
+
+
+.presentation #slider   { background-repeat: no-repeat; background-position: center bottom; background-size: cover; }
+
+.presentation .slider-content { padding: .8em; width: 50%; position: absolute; right: 0; top: 60%; background: rgba(0,0,0,0.8);  }
+.presentation .slider-content p { color: white }
+.presentation .slider-content li { display: none }
+.presentation .slider-content li:first-child { display: block }
+
+
+#plan { padding: 2em 0 }
+#plan h2 { margin-top: 0; padding-top: 0; color:  }
+#plan p { font-size: .9em; line-height: 1.6em }
+#plan img { padding: .8em; display: inline-block; margin-top: 1.8em }
+#plan .button { background: #FF416A }
+#plan a { display: block; width: 35%; margin: 0 auto; }
+
+#join { background: url('../images/plan-bg.jpg') no-repeat center top; background-size: cover; padding: 3em 0 }
+#join * { color: white }
+#join h2 { color: #B7DF18; margin-bottom: 1.5em }
+#join img { display: block; margin: 0 auto; margin-bottom: 1.5em }
+#join p { font-size: .9em; padding: .8em }
+
+#map { padding: 2em 0; }
+#map h2 { margin-bottom: 1em }
+
+#talk { background: url('../images/talk.jpg') no-repeat center top; background-size: cover;; padding: 2em 0; } 
+#talk * { color: white }
+#talk h2 { color: #B7DF18; }
+
