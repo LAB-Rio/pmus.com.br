@@ -7,7 +7,7 @@ window.Slider = {
 
   initialize: function(){
     this.watchArrowClick();
-    this.interval = setInterval(Slider.startSlide, 2000);
+    this.interval = setInterval(Slider.startSlide, 8000);
   },
 
 
