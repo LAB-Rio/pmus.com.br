@@ -8,6 +8,12 @@ window.Slider = {
   initialize: function(){
     this.watchArrowClick();
     this.interval = setInterval(Slider.startSlide, 8000);
+
+
+    $('a.learn-more').on('click', function(){
+      $('#plan .about').slideDown();
+      $(this).fadeOut();
+    });
   },
 
 
