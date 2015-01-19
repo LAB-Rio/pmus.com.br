@@ -13,19 +13,19 @@ window.Slider = {
 
     var self = Slider;    
     
-    self.slider.animate({ opacity: 0 }, 100);
+    self.slider.stop(true, true).animate({ opacity: 0 }, 100);
     self.slider.removeClass('slider-' + self.index);
 
-    $('li.slider-' + self.index + '-content').hide().parents('.slider-content').animate({ right: '-9999'}, 200);
+    $('li.slider-' + self.index + '-content').hide().parents('.slider-content').stop(true,true).animate({ right: '-9999'}, 200);
 
     self.index += 1;         
     
     if ( self.index > 5 ) { self.index = 1; }
     
-    self.slider.animate({ opacity: 1 }, 700);
+    self.slider.stop(true,true).animate({ opacity: 1 }, 700);
     self.slider.addClass('slider-' + self.index);
 
-    $('li.slider-' + self.index + '-content').show().parents('.slider-content').animate({ right: 0 }, 800);
+    $('li.slider-' + self.index + '-content').show().parents('.slider-content').stop(true, true).animate({ right: 0 }, 800);
     
   }
 
