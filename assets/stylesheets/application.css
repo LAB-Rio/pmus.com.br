@@ -19,6 +19,11 @@ h2, h3, h4, h5 { font-family: 'Open Sans', 'Arial', sans-serif; font-weight: bol
 .presentation ol li h3  { color: #B7DF18; font-size: 1.8em;  }
 .presentation #slider   { min-height: 600px; height: 100% !important; overflow: hidden; }
 
+.presentation .arrows { position: absolute; z-index: 9999; top: 45%; width: 45px; height: 6%; background-size: cover; } 
+.presentation .arrows:hover { cursor: pointer; background-color: #000; } 
+.presentation .arrow-left { background: #666 url('../images/arrow-left.png') no-repeat center center; border-radius: 0 4px 4px 0  } 
+.presentation .arrow-right { background: #666 url('../images/arrow-right.png') no-repeat center center; right: 0; border-radius: 4px 0 0 4px } 
+
 .presentation .slider-1  { background: url('../images/slider1.jpg'); }
 .presentation .slider-2  { background: url('../images/slider2.jpg'); }
 .presentation .slider-3  { background: url('../images/slider3.jpg'); }
@@ -35,7 +40,7 @@ h2, h3, h4, h5 { font-family: 'Open Sans', 'Arial', sans-serif; font-weight: bol
 
 
 #plan { padding: 2em 0 }
-#plan h2 { margin-top: 0; padding-top: 0; color:  }
+#plan h2 { margin-top: 0; padding-top: 0; }
 #plan p { font-size: .9em; line-height: 1.6em }
 #plan img { padding: .8em; display: inline-block; margin-top: 1.8em }
 #plan .button { background: #FF416A }
