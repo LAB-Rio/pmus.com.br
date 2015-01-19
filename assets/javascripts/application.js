@@ -22,7 +22,7 @@ window.Slider = {
       {
         imgSrc: $("#map_image").data("big"),	    // path of the hi-res version of the image
         lensShape: "circle",				// shape of the lens (circle/square)
-        lensSize: 300,					// size of the lens (in px)
+        lensSize: 200,					// size of the lens (in px)
         borderSize: 2,					// size of the lens border (in px)
         borderColor: "#fff",				// color of the lens border (#hex)
         borderRadius: 0,				// border radius (optional, only if the shape is square)
