@@ -12,7 +12,7 @@ window.Slider = {
 
     $('a.learn-more').on('click', function(){
       $('#plan .about').slideDown();
-      $(this).fadeOut();
+      $(this).css({ visibility: 'hidden' });
     });
   },
 
