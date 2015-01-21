@@ -46,7 +46,7 @@ h2, h3, h4, h5 { font-family: 'Open Sans', 'Arial', sans-serif; font-weight: bol
 #plan p { font-size: .9em; line-height: 1.6em }
 #plan img { padding: .8em; display: inline-block; margin-top: 1.8em }
 #plan .button { background: #FF416A }
-#plan a { display: block; width: 35%; margin: 0 auto; }
+#plan a.button { display: block; width: 35%; margin: 0 auto; }
 #plan .about { display: none; background: #efefef; padding: .8em; font-size: 1em; }
 
 #join { background: url('../images/plan-bg.jpg') no-repeat center top; background-size: cover; padding: 3em 0 }
