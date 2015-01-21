@@ -58,7 +58,7 @@ h2, h3, h4, h5 { font-family: 'Open Sans', 'Arial', sans-serif; font-weight: bol
 #map { padding: 2em 0 0 0; }
 #map h2 { margin-bottom: 1em }
 
-#talk { background: url('../images/talk.jpg') no-repeat center top; background-size: cover; padding: 4em 0 1em 0; } 
+#talk { background: url('../images/talk.jpg') no-repeat center top; background-size: cover; padding: .4em 0 .2em 0; } 
 #talk * { color: white }
 #talk h2 { color: #B7DF18; margin-top: 2em; margin-bottom: 2em }
 #talk label, #talk input { display: inline-block }
