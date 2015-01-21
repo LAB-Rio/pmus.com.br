@@ -57,6 +57,7 @@ h2, h3, h4, h5 { font-family: 'Open Sans', 'Arial', sans-serif; font-weight: bol
 
 #map { padding: 2em 0 0 0; }
 #map h2 { margin-bottom: 1em }
+#map img { width: 100% !important }
 
 #talk { background: url('../images/talk.jpg') no-repeat center top; background-size: cover; padding: 4em 0 1em 0; } 
 #talk * { color: white }
