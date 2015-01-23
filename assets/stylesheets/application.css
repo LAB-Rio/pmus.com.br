@@ -5,6 +5,11 @@ a { transition: all .2s }
 h2, h3, h4, h5 { font-family: 'Open Sans', 'Arial', sans-serif; font-weight: bold}
 
 .text-uppercase { text-transform: uppercase }
+.text-red { color: #FF5D8F !important }
+.text-blue { color: #4FD0D0 !important; }
+
+
+
 .button { border-radius: 4px; }
 
 #mlens_wrapper_0 { width: 100% !important }
@@ -13,7 +18,7 @@ h2, h3, h4, h5 { font-family: 'Open Sans', 'Arial', sans-serif; font-weight: bol
 
 .main-menu { margin-top: .2em; }
 .main-menu a { color: #666; letter-spacing: .5px; font-family: 'Open Sans'; padding: .6em; font-weight: 400; font-size: .8em; display: inline-block; margin-right: .6em; border: 2px solid white }
-.main-menu a:hover { border: 2px solid #00B29A }
+.main-menu a:hover { border: 2px solid #70CBCE }
 
 
 .presentation ol { list-style-type: none }
