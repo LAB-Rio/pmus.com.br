@@ -20,13 +20,13 @@ h2, h3, h4, h5 { font-family: 'Open Sans', 'Arial', sans-serif; font-weight: bol
 .main-menu a { color: #666; letter-spacing: .5px; font-family: 'Open Sans'; padding: .6em; font-weight: 400; font-size: .8em; display: inline-block; margin-right: .6em; border: 2px solid white }
 .main-menu a:hover { border: 2px solid #70CBCE }
 
-
+.presentation { position: relative; }
 .presentation ol { list-style-type: none }
 .presentation li p { font-weight: 200; }
 .presentation ol li h3  { color: #B7DF18; font-size: 1.8em;  }
 .presentation #slider   { min-height: 600px; height: 100% !important; overflow: hidden; }
 
-.presentation .arrows { position: absolute; z-index: 9999; top: 45%; width: 45px; height: 6%; background-size: cover; } 
+.presentation .arrows { position: absolute; z-index: 9999; bottom: 55%; width: 45px; height: 6%; background-size: cover; } 
 .presentation .arrows:hover { cursor: pointer; background-color: #000; } 
 .presentation .arrow-left { background: #666 url('../images/arrow-left.png') no-repeat center center; border-radius: 0 4px 4px 0  } 
 .presentation .arrow-right { background: #666 url('../images/arrow-right.png') no-repeat center center; right: 0; border-radius: 4px 0 0 4px } 
@@ -40,7 +40,7 @@ h2, h3, h4, h5 { font-family: 'Open Sans', 'Arial', sans-serif; font-weight: bol
 
 .presentation #slider   { background-repeat: no-repeat; background-position: center bottom; background-size: cover; }
 
-.presentation .slider-content { padding: .8em; width: 50%; position: absolute; right: 0; top: 60%; background: rgba(0,0,0,0.8);  }
+.presentation .slider-content { padding: .8em; width: 50%; position: absolute; right: 0; bottom: 10%; background: rgba(0,0,0,0.8);  }
 .presentation .slider-content p { color: white }
 .presentation .slider-content li { display: none }
 .presentation .slider-content li:first-child { display: block }
