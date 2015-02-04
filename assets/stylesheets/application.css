@@ -58,9 +58,10 @@ h2, h3, h4, h5 { font-family: 'Open Sans', 'Arial', sans-serif; font-weight: bol
 #join * { color: white }
 #join h2 { color: #B7DF18; margin-bottom: 1.5em }
 #join img { display: block; margin: 0 auto; margin-bottom: 1.5em }
-#join p { font-size: .9em; padding: .8em }
-#join .program p { min-height: 380px; height: 100%; }
-#join .button { display: block; margin-top: 10%; color: #333; background: #DBE444; font-weight: bold; opacity: 1 }
+#join p { font-size: 1em; padding: .8em; text-shadow: 0 1px 1px #333; }
+#join .medium-6 { margin-bottom: 1.6em; }
+#join .program p { min-height: 360px; height: 100%; }
+#join .button { font-size: .9em; display: block; margin-top: 10%; color: #333; background: #DBE444; font-weight: bold; opacity: 1 }
 #join .button:hover { background: #B6E017 }
 #join .disabled { background: #fdfede; opacity: .3 }
 #join .disabled:hover { background: #fdfede;}
